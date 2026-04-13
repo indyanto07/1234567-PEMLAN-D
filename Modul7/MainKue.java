@@ -48,6 +48,6 @@ public class MainKue {
         System.out.printf("Total Harga Kue Pesanan: %,.2f | Total Berat: %.2f\n", totalHargaPesanan, totalBeratPesanan);
         System.out.printf("Total Harga Kue Jadi: %,.2f  | Total Jumlah: %.0f\n", totalHargaJadi, totalJumlahJadi);
         System.out.println("\n=== KUE TERMAHAL ===");
-        System.out.println("Nama: " + kueTermahal.getNama() + " dengan harga: " + kueTermahal.hitungHarga());
+        System.out.printf("Nama: " + kueTermahal.getNama() + " dengan harga: %,.2f\n", kueTermahal.hitungHarga());
     }
 }
